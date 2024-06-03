@@ -1,0 +1,15 @@
+﻿<Window x:Class="rpninterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rpninterface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFC0B9DD">
+        <Button Height="50" Click="btnCalculate" Margin="315,249,315,0" Background="White" Foreground="Black" VerticalAlignment="Top" FontFamily="Arial Black">Calculate</Button>
+        <Label Height="50" Name="lblOutput" Margin="545,72,54,312" Background="White" FontFamily="Arial Black">Output</Label>
+        <TextBox Height="50" Width="200" Name="tbInput" Margin="54,72,546,312" Background="White" FontFamily="Arial Black" TextAlignment="Center">Expression</TextBox>
+        <TextBox Height="50" Name="tbInputX" Margin="360,72,360,312" TextChanged="tbInputX_TextChanged" Background="White" FontFamily="Arial Black" TextAlignment="Center">X</TextBox>
+    </Grid>
+</Window>

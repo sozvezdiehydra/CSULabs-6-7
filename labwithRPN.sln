@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rpninterface", "rpninterface\rpninterface.csproj", "{BA0D2223-F754-4B6B-A4F8-282BDA17D2EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpnLogic", "RpnLogic\RpnLogic.csproj", "{D46E67B1-A02D-433D-A79F-861728D0C528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA0D2223-F754-4B6B-A4F8-282BDA17D2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0D2223-F754-4B6B-A4F8-282BDA17D2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0D2223-F754-4B6B-A4F8-282BDA17D2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0D2223-F754-4B6B-A4F8-282BDA17D2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46E67B1-A02D-433D-A79F-861728D0C528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46E67B1-A02D-433D-A79F-861728D0C528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46E67B1-A02D-433D-A79F-861728D0C528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46E67B1-A02D-433D-A79F-861728D0C528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17F5B229-0180-4BFF-9108-EF6A01E43850}
+	EndGlobalSection
+EndGlobal
